@@ -18,44 +18,20 @@
   "test_pattern": "test.*Test[.]hx",
   "exercises": [
     {
-      "slug": "hello-world",
-      "uuid": "3596bbf7-66f0-49c0-8c3e-3472455f90c7",
-      "core": false,
-      "auto_approve": true,
+      "slug": "two-fer",
+      "uuid": "5b56ea78-58e2-4ef0-931d-d5ccaf9af118",
+      "core": true,
       "unlocked_by": null,
       "difficulty": 1,
       "topics": [
+        "optional_values",
         "strings"
       ]
     },
     {
-      "slug": "bob",
-      "uuid": "46b447aa-b2b5-4f5c-ac73-8de47f897840",
-      "core": false,
-      "unlocked_by": null,
-      "difficulty": 1,
-      "topics": [
-        "booleans",
-        "conditionals",
-        "strings"
-      ]
-    },
-    {
-      "slug": "leap",
-      "uuid": "d30952cf-0b7d-a980-9351-caedebfed16362c6a7a",
-      "core": false,
-      "unlocked_by": null,
-      "difficulty": 1,
-      "topics": [
-        "booleans",
-        "integers",
-        "logic"
-      ]
-    },
-    {
-      "slug": "anagram",
-      "uuid": "fa7fcf12-15f7-42c5-aae2-7b824c5f990f",
-      "core": false,
+      "slug": "hamming",
+      "uuid": "ed5e30f2-e9ed-4697-bdc4-99579aea3b6f",
+      "core": true,
       "unlocked_by": null,
       "difficulty": 1,
       "topics": [
@@ -75,13 +51,25 @@
       ]
     },
     {
-      "slug": "two-fer",
-      "uuid": "5b56ea78-58e2-4ef0-931d-d5ccaf9af118",
-      "core": true,
+      "slug": "anagram",
+      "uuid": "fa7fcf12-15f7-42c5-aae2-7b824c5f990f",
+      "core": false,
       "unlocked_by": null,
       "difficulty": 1,
       "topics": [
-        "optional_values",
+        "filtering",
+        "strings"
+      ]
+    },
+    {
+      "slug": "bob",
+      "uuid": "46b447aa-b2b5-4f5c-ac73-8de47f897840",
+      "core": false,
+      "unlocked_by": null,
+      "difficulty": 1,
+      "topics": [
+        "booleans",
+        "conditionals",
         "strings"
       ]
     },
@@ -97,13 +85,24 @@
       ]
     },
     {
-      "slug": "hamming",
-      "uuid": "ed5e30f2-e9ed-4697-bdc4-99579aea3b6f",
-      "core": true,
+      "slug": "hello-world",
+      "uuid": "3596bbf7-66f0-49c0-8c3e-3472455f90c7",
+      "core": false,
+      "auto_approve": true,
       "unlocked_by": null,
       "difficulty": 1,
       "topics": [
-        "filtering",
+        "strings"
+      ]
+    },
+    {
+      "slug": "isbn-verifier",
+      "uuid": "e1a4c867-7964-4812-91e6-e9f2cd396eac",
+      "core": false,
+      "unlocked_by": null,
+      "difficulty": 1,
+      "topics": [
+        "regex",
         "strings"
       ]
     },
@@ -118,14 +117,15 @@
       ]
     },
     {
-      "slug": "twelve-days",
-      "uuid": "052867d8-a232-445e-a0e9-6604e6a557a2",
+      "slug": "leap",
+      "uuid": "d30952cf-0b7d-a980-9351-caedebfed16362c6a7a",
       "core": false,
       "unlocked_by": null,
       "difficulty": 1,
       "topics": [
-        "strings",
-        "recursion"
+        "booleans",
+        "integers",
+        "logic"
       ]
     },
     {
@@ -139,14 +139,14 @@
       ]
     },
     {
-      "slug": "isbn-verifier",
-      "uuid": "e1a4c867-7964-4812-91e6-e9f2cd396eac",
+      "slug": "twelve-days",
+      "uuid": "052867d8-a232-445e-a0e9-6604e6a557a2",
       "core": false,
       "unlocked_by": null,
       "difficulty": 1,
       "topics": [
-        "regex",
-        "strings"
+        "strings",
+        "recursion"
       ]
     }
   ]
